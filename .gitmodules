@@ -40,3 +40,6 @@
 [submodule "bundle/json"]
 	path = bundle/json
 	url = git://github.com/vim-scripts/JSON.vim
+[submodule "bundle/fugitive"]
+	path = bundle/fugitive
+	url = https://github.com/tpope/vim-fugitive.git
