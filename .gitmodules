@@ -40,3 +40,6 @@
 [submodule "bundle/json"]
 	path = bundle/json
 	url = git://github.com/vim-scripts/JSON.vim
+[submodule "bundle/solarized"]
+	path = bundle/solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
