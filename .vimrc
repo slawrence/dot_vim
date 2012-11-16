@@ -5,6 +5,8 @@ call pathogen#helptags()
 filetype plugin indent on
 filetype plugin on
 set number
+"save changes to buffers
+set autowrite
 syntax on
 set wildignore+=.git,Library,Downloads,Documents
 set wildignore+=jboss-5.1.0.GA/**
