@@ -5,6 +5,10 @@ call pathogen#helptags()
 filetype plugin indent on
 filetype plugin on
 set number
+
+"ADDED SML 11/20/12, set FONT size
+set guifont=Menlo\ Regular:h14
+
 "save changes to buffers
 set autowrite
 syntax on
