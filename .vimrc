@@ -52,6 +52,10 @@ let g:solarized_contrast="high"
 let g:solarized_visibility="high"
 colorscheme solarized
 
+"gist-vim setting so gists are copied to clipboard
+let g:gist_clip_command = 'pbcopy'
+let g:gist_detect_filetype = 1
+
 "make settings (specifies what is called when :make is ran)
 "setlocal makeprg=NODE_DISABLE_COLORS=1\ nodelint\ %
 "setlocal efm=%A%f\,\ line\ %l\,\ character\ %c:%m,%Z%,%#,%-G%.%#
@@ -64,7 +68,6 @@ autocmd FileType html,xhtml,xml,htmldjango,jinjahtml,eruby,mako source ~/.vim/bu
 "set pastetoggle=<F2>
 
 "load up nerdtree in the trademark project
-"autocmd VimEnter * NERDTree ~/
 
 "Command T - don't let window take up whole screen
 let g:CommandTMaxHeight=20
