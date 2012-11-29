@@ -20,7 +20,7 @@ let disable_lint = 1
 
 "search settings
 set hlsearch
-"set incsearch
+set incsearch
 
 "4 space tabs
 set expandtab
@@ -130,3 +130,4 @@ map <leader>jp :%!python -m json.tool<CR>
 "filetypes -- move to filetypes.vim??
 au! BufRead,BufNewFile *.json set filetype=json
 autocmd Syntax json source ~/.vim/bundle/json/syntax/json.vim
+autocmd BufRead,BufNewFile *.less set filetype=css
