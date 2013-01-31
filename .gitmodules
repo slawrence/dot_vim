@@ -24,22 +24,22 @@
 	url = https://github.com/godlygeek/tabular.git
 [submodule "bundle/delimitmate"]
 	path = bundle/delimitmate
-	url = git://github.com/Raimondi/delimitMate.git
+	url = https://github.com/Raimondi/delimitMate.git
 [submodule "bundle/closetag"]
 	path = bundle/closetag
-	url = git://github.com/docunext/closetag.vim.git
+	url = https://github.com/docunext/closetag.vim.git
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
-	url = git://github.com/scrooloose/nerdcommenter.git
+	url = https://github.com/scrooloose/nerdcommenter.git
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
-	url = git://github.com/majutsushi/tagbar.git
+	url = https://github.com/majutsushi/tagbar.git
 [submodule "bundle/json"]
 	path = bundle/json
-	url = git://github.com/vim-scripts/JSON.vim
+	url = https://github.com/vim-scripts/JSON.vim
 [submodule "bundle/solarized"]
 	path = bundle/solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
+	url = https://github.com/altercation/vim-colors-solarized.git
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
 	url = https://github.com/tpope/vim-fugitive.git
