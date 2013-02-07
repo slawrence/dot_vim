@@ -38,6 +38,7 @@ set incsearch
 " with +wildmenu.  See :help 'wildmenu'
 set wildmenu
 
+let mapleader=','
 nmap <silent> ,ev :e $MYVIMRC<cr>
 nmap <silent> ,sv :so $MYVIMRC<cr>
 nmap <silent> ,nt :NERDTreeFind<cr>
