@@ -37,3 +37,6 @@
 [submodule "bundle/snippets"]
 	path = bundle/snippets
 	url = https://github.com/slawrence/snippets.git
+[submodule "bundle/ctrlp"]
+	path = bundle/ctrlp
+	url = https://github.com/kien/ctrlp.vim.git
