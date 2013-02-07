@@ -49,6 +49,3 @@
 [submodule "bundle/unimpaired"]
 	path = bundle/unimpaired
 	url = https://github.com/tpope/vim-unimpaired.git
-[submodule "bundle/webapi-vim"]
-	path = bundle/webapi-vim
-	url = https://github.com/mattn/webapi-vim.git
