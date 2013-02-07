@@ -29,50 +29,50 @@ The HOME folder should be where the following commands are executed (unix/cygwin
 
 ## Submodules/Plugins and Settings
 
-#pathogen
+### pathogen
 
 Vim Plugin manager. Installed as a pathogen module itself so it must be added to the vimrc file: `runtime bundle/vim-pathogen/autoload/pathogen.vim`
 
-# closetag
+### closetag
 
 Assists when writing html/xml files by closing tags.
 
-# delimitmate
+### delimitmate
 
 Provides auto closing of quotes, parenthesis, brackets, etc.
 
-# nerdcommenter
+### nerdcommenter
 
 Provides commenting based on filetype shortcuts.
 
 * `,c` Toggles the selected line(s)
 * `,ci` Toggles the current line individually
 
-# nerdtree
+### nerdtree
 
 FileBrowsing
 
 * `,nt` Open a tree in the current buffer's directory
 
-#solarized
+### solarized
 
 Theme
 
-#tabular
+### tabular
 
 Shortcuts for organizing.
 
-#unimpaired
+### unimpaired
 
 Shortcuts
 
 `[b` or `]b` Previous/Next buffer
 
-#vim-javascript
+### vim-javascript
 
 Provides syntax and indent plugins for javascript.
 
-#vim-powerline
+### vim-powerline
 
 Improved powerline.
 
