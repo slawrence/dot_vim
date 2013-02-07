@@ -9,11 +9,11 @@ runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
 call pathogen#helptags()
 
-filetype on
+syntax on
+set encoding=utf-8 " Necessary to show Unicode glyphs
 filetype plugin indent on
 
 set autowrite
-syntax on
 set number
 
 "4 space tabs
@@ -63,11 +63,6 @@ if has('gui_running')
     let g:solarized_visibility="high"
     colorscheme solarized
 endif
-
-"vim-powerline settings
-set laststatus=2   " Always show the statusline
-set encoding=utf-8 " Necessary to show Unicode glyphs
-
 
 "-------------------------------
 " Environment specific settings

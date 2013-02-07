@@ -41,6 +41,10 @@ Assists when writing html/xml files by closing tags.
 
 Provides auto closing of quotes, parenthesis, brackets, etc.
 
+### fugitive
+
+Vim/Git integration
+
 ### nerdcommenter
 
 Provides commenting based on filetype shortcuts.
@@ -66,7 +70,7 @@ Shortcuts for organizing.
 
 Shortcuts
 
-`[b` or `]b` Previous/Next buffer
+* `[b` or `]b` Previous/Next buffer
 
 ### vim-javascript
 
