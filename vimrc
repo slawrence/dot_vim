@@ -54,6 +54,9 @@ nmap <silent> ,/ :nohlsearch<cr>
 " Plugin settings
 "----------------------
 
+"nerdtree hack.
+" depending if we're in cygwin or gVim
+
 "solarized theme settings
 set background=dark
 colorscheme solarized
@@ -62,5 +65,4 @@ colorscheme solarized
 " Environment specific settings
 " TODO: Move these out
 "-------------------------------
-cd $HOME
-nmap <silent> ,gw :NERDTree webapp<cr>
+"cd $HOME
