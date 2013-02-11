@@ -33,6 +33,9 @@ set incsearch
 set nobackup
 set noswapfile
 
+"backspace - make it work like most apps
+set backspace=2
+
 "no sounds
 set noerrorbells
 
