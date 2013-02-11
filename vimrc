@@ -34,12 +34,23 @@ set nobackup
 set noswapfile
 
 "no sounds
-set visualbell
 set noerrorbells
 
 " Enable enhanced command-line completion. Presumes you have compiled
 " with +wildmenu.  See :help 'wildmenu'
 set wildmenu
+
+" status line settings
+set laststatus=2    "show status line always
+
+set statusline=
+set statusline+=%<\                       " cut at start
+set statusline+=%2*[%n%H%M%R%W]%*\        " flags and buf no
+set statusline+=%-40f\                    " path
+set statusline+=%=%1*%y%*%*\              " file type
+set statusline+=%10((%l,%c)%)\            " line and column
+set statusline+=%P                        " percentage of file
+
 
 "-----------------------
 " Custom shortcuts
@@ -50,19 +61,19 @@ nmap <silent> ,sv :so $MYVIMRC<cr>
 nmap <silent> ,nt :NERDTreeFind<cr>
 nmap <silent> ,/ :nohlsearch<cr>
 
+" Mappings for resizing viewports
+if bufwinnr(1)
+    map + <C-W>+
+    map - <C-W>-
+    map <c-n> <c-w><
+    map <c-m> <c-w>>
+endif
+
 "----------------------
 " Plugin settings
 "----------------------
-
-"nerdtree hack.
-" depending if we're in cygwin or gVim
 
 "solarized theme settings
 set background=dark
 colorscheme solarized
 
-"-------------------------------
-" Environment specific settings
-" TODO: Move these out
-"-------------------------------
-"cd $HOME

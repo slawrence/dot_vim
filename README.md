@@ -25,6 +25,16 @@ The HOME folder should be where the following commands are executed (unix/cygwin
         * Add content: `source $HOME/.vim/vimrc`
         * For gVim manually copy bundle folder to vim/vimfiles directory
 
+### Optional Dependencies
+
+#### Ctags
+
+* Windows
+    1. Download Ctags binary for windows
+        * http://sourceforge.net/projects/ctags/
+        * Add to PATH
+        * Generate tags in a directory in vim by `!ctags -R`
+
 ## Settings
 
 ## Submodules/Plugins and Settings
