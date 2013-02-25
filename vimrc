@@ -28,6 +28,8 @@ set listchars=tab:>.,trail:.,extends:#,nbsp:.
 "search settings
 set hlsearch
 set incsearch
+set ignorecase
+set smartcase
 
 "backupsettings
 set nobackup
@@ -61,7 +63,8 @@ set statusline+=%P                        " percentage of file
 let mapleader=','
 nmap <silent> ,ev :e $MYVIMRC<cr>
 nmap <silent> ,sv :so $MYVIMRC<cr>
-nmap <silent> ,nt :NERDTreeFind<cr>
+nnoremap <silent> ,nt :NERDTreeFind<cr>
+nmap ,n :NERDTreeToggle<cr>
 nmap <silent> ,/ :nohlsearch<cr>
 
 " Mappings for resizing viewports
