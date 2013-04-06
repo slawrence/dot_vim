@@ -21,9 +21,8 @@ The HOME folder should be where the following commands are executed (unix/cygwin
         * Create a directory symbolic link for gVIm
             1. `mklink /D vimfiles %HOME%\.vim`
     * Installing on windows without mklink access:
-        * Create `_vimrc` file in $HOME
-        * Add content: `source $HOME/.vim/vimrc`
-        * For gVim manually copy bundle folder to vim/vimfiles directory
+        * `cp ~/.vim/_vimrc ~/_vimrc`
+        * For gVim manually copy bundle folder to vim directory
 
 ### Optional Dependencies
 
