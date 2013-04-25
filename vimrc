@@ -88,5 +88,9 @@ call togglebg#map("<F5>") "toggle background
 " Font settings
 "----------------------
 if has("gui_running")
-    set guifont=Menlo:h16
+    if has("gui_win32")
+        set guifont=Consolas:h16
+    else
+        set guifont=Menlo:h16
+    endif
 endif
