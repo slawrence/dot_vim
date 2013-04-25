@@ -82,4 +82,11 @@ endif
 "solarized theme settings
 set background=dark
 colorscheme solarized
+call togglebg#map("<F5>") "toggle background
 
+"----------------------
+" Font settings
+"----------------------
+if has("gui_running")
+    set guifont=Menlo:h16
+endif
