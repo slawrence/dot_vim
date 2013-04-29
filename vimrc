@@ -89,8 +89,18 @@ call togglebg#map("<F5>") "toggle background
 "----------------------
 if has("gui_running")
     if has("gui_win32")
-        set guifont=Consolas:h16
+        set guifont=Consolas:h15
     else
-        set guifont=Menlo:h16
+        set guifont=Menlo:h15
     endif
 endif
+
+"----------------------
+" Column length
+"----------------------
+if exists('+colorcolumn')
+    set colorcolumn=80
+else
+    highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+    match OverLength /\%80v.\+/
+end
