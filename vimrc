@@ -66,6 +66,8 @@ nmap <silent> ,sv :so $MYVIMRC<cr>
 nnoremap <silent> ,nt :NERDTreeFind<cr>
 nmap ,n :NERDTreeToggle<cr>
 nmap <silent> ,/ :nohlsearch<cr>
+nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
+
 
 " Mappings for resizing viewports
 if bufwinnr(1)
@@ -83,6 +85,10 @@ endif
 set background=light
 colorscheme solarized
 call togglebg#map("<F5>") "toggle background
+
+"tern settings
+let g:tern_map_keys=1
+let g:tern_show_argument_hints='on_hold'
 
 "----------------------
 " Font settings
