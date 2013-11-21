@@ -63,7 +63,7 @@ set statusline+=%P                        " percentage of file
 let mapleader=','
 nmap <silent> ,ev :e $MYVIMRC<cr>
 nmap <silent> ,sv :so $MYVIMRC<cr>
-nnoremap <silent> ,nt :NERDTreeFind<cr>
+nnoremap <silent> ,nt :NERDTreeFind<CR>
 nmap ,n :NERDTreeToggle<cr>
 nmap <silent> ,/ :nohlsearch<cr>
 nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
