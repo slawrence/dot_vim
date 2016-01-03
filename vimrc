@@ -84,7 +84,9 @@ endif
 "solarized theme settings
 set background=light
 colorscheme solarized
+let g:solarized_termcolors=256
 call togglebg#map("<F5>") "toggle background
+set t_Co=256
 
 "tern settings
 let g:tern_map_keys=1
